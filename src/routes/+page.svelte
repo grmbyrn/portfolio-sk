@@ -1,7 +1,8 @@
 <script>
 	import Button from "$lib/components/shared/Button.svelte";
-
+    import Interested from "$lib/components/shared/Interested.svelte";
 </script>
+
 <div class="container">
     <div class="hero-container">
         <picture>
@@ -11,10 +12,12 @@
         </picture>
         <div class="hero-heading">
             <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
-            <button>
+            <div class="btn-container">
                 <img src="/images/icons/down-arrows.svg" alt="down arrows">
-                ABOUT ME
-            </button>
+                <a href="#about" id="about">
+                    ABOUT ME
+                </a>
+            </div>
         </div>
     </div>
     <div class="about-me-container">
@@ -24,7 +27,7 @@
             <img src='/images/homepage/mobile/image-homepage-profile.jpg' alt="hero">
         </picture>
         <div class="about-me-container-text">
-            <h2>About Me</h2>
+            <h2 id="about">About Me</h2>
             <p>
                 I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.
             </p>
@@ -35,6 +38,7 @@
         </div>
     </div>
 </div>
+<Interested />
 
 <style>
     .container{
@@ -54,17 +58,23 @@
         color: #33323D;
     }
 
-    .hero-container button{
-        margin-top: 2rem;
+    .btn-container{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        padding: 18px;
+        gap: 4rem;
+        margin-top: 2rem;
         background-color: #203A4C;
         border: none;
+        width: 200px;
+        padding: 1rem;
+    }
+
+    .btn-container a {
         color: #ffffff;
         font-family: "Public Sans", sans-serif;
         font-size: 12px;
+        text-decoration: none;
     }
 
     .about-me-container{
@@ -90,7 +100,7 @@
 
         .hero-heading{
             position: absolute;
-            margin-top: -14.75rem;
+            margin-top: -14.5rem;
             width: 514px;
             z-index: 1000;
             background-color: #FAFAFA;
@@ -112,6 +122,8 @@
     }
 
     @media only screen and (min-width: 1100px){
-
+        .container{
+            width: 1015px;
+        }
     }
 </style>

@@ -66,6 +66,7 @@
 		display: flex;
 		align-items: flex-start; /* Center vertically */
 		justify-content: center;
+        z-index: 1001;
     }
 
     .nav-list {

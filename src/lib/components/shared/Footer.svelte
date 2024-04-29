@@ -100,4 +100,7 @@
             margin-top: 0rem;
         }
     }
+
+    @media only screen and (min-width: 1100px){
+    }
 </style>

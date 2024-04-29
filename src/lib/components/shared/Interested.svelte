@@ -9,7 +9,7 @@
     </div>
     <div class="btn">
         <Button
-            link={'/contact-me'}
+            link={'/contact'}
             text={'Contact Me'}
         />
     </div>
