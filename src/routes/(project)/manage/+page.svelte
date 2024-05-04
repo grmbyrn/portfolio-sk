@@ -17,5 +17,5 @@
     staticPreviewTablet2={'images/detail/tablet/image-manage-preview-2.jpg'}
     staticPreviewDesktop2={'images/detail/desktop/image-manage-preview-2.jpg'}
     previousProject={'/fylo'}
-    nextProject={'/bookmark'}
+    nextProject={'/torrust'}
 />
