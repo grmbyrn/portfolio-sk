@@ -16,6 +16,6 @@
     staticPreviewMobile2={'images/detail/mobile/image-insure-preview-2.jpg'}
     staticPreviewTablet2={'images/detail/tablet/image-insure-preview-2.jpg'}
     staticPreviewDesktop2={'images/detail/desktop/image-insure-preview-2.jpg'}
-    previousProject={'/torrust'}
+    previousProject={'/bookmark'}
     nextProject={'/fylo'}
 />

@@ -8,9 +8,9 @@
         bgImageMobile={'/images/portfolio/mobile/image-portfolio-bookmark.jpg'}
         bgImageTablet={'/images/portfolio/tablet/image-portfolio-bookmark.jpg'}
         bgImageDesktop={'/images/portfolio/desktop/image-portfolio-bookmark.jpg'}
-        title={'Torrust'}
-        description={'This project required me to maintain and update a blog in SvelteKit which informs the user on how to use Torrust, an open source project that aims to provide you with the tools you need to host your own torrent indexes with ease.'}
-        link={'/torrust'}
+        title={'Bookmark'}
+        description={'This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the features section.'}
+        link={'/bookmark'}
     />
 
     <ProjectCard
